@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/asu_wallpaper"
+    tools:context=".MainActivity">
+
+    <!-- Button to measure heart rate -->
+
+    <!-- TextView for displaying measured heart rate value -->
+    <Button
+        android:id="@+id/button_measure_heart_rate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:text="MEASURE HEART RATE"
+        android:backgroundTint="@color/gold"
+        android:textColor="@color/dark_maroon"
+        app:strokeColor="@color/dark_maroon"
+        app:strokeWidth="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_heart_rate_value"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:padding="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Heart Rate: --"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@id/button_measure_heart_rate"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Button to measure respiratory rate -->
+
+    <!-- TextView for displaying measured respiratory rate value -->
+
+    <Button
+        android:id="@+id/button_measure_respiratory_rate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="128dp"
+        android:text="MEASURE RESPIRATORY RATE"
+        android:backgroundTint="@color/gold"
+        android:textColor="@color/dark_maroon"
+        app:strokeColor="@color/dark_maroon"
+        app:strokeWidth="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_heart_rate_value" />
+
+    <TextView
+        android:id="@+id/tv_respiratory_rate_value"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:padding="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Respiratory Rate: --"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@id/button_measure_respiratory_rate"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Button to go to symptoms page -->
+
+    <!-- Button to upload the collected signs -->
+
+    <Button
+        android:id="@+id/button_symptoms"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="128dp"
+        android:text="SYMPTOMS"
+        android:backgroundTint="@color/gold"
+        android:textColor="@color/dark_maroon"
+        app:strokeColor="@color/dark_maroon"
+        app:strokeWidth="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_respiratory_rate_value" />
+
+    <Button
+        android:id="@+id/button_upload_signs"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:text="UPLOAD SIGNS"
+        android:backgroundTint="@color/gold"
+        android:textColor="@color/dark_maroon"
+        app:strokeColor="@color/dark_maroon"
+        app:strokeWidth="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_symptoms" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

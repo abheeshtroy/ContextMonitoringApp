@@ -1,0 +1,22 @@
+<resources>
+    <color name="white">#FFFFFF</color> <!-- White -->
+    <color name="black">#000000</color> <!-- Black -->
+
+    <!-- Primary colors -->
+    <color name="primaryColor">#6200EE</color> <!-- Indigo -->
+    <color name="primaryVariantColor">#3700B3</color> <!-- Dark Indigo -->
+    <color name="secondaryColor">#03DAC6</color> <!-- Teal -->
+
+    <!-- Light theme specific colors -->
+    <color name="backgroundColorLight">#FFFFFF</color> <!-- White -->
+    <color name="surfaceColorLight">#FFFFFF</color> <!-- White -->
+    <color name="textColorLight">#000000</color> <!-- Black -->
+
+    <!-- Dark theme specific colors -->
+    <color name="backgroundColorDark">#121212</color> <!-- Dark Gray -->
+    <color name="surfaceColorDark">#1F1F1F</color> <!-- Darker Gray -->
+    <color name="textColorDark">#FFFFFF</color> <!-- White -->
+
+    <color name="gold">#ffc72c</color> <!-- Gold color -->
+    <color name="dark_maroon">#7d2349</color> <!-- Dark maroon color -->
+</resources>

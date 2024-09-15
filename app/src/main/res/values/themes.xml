@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ContextMonitoringApp2" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Primary brand colors -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">@color/primaryVariantColor</item>
+        <item name="colorSecondary">@color/secondaryColor</item>
+
+        <!-- Background and surface colors for light theme -->
+        <item name="backgroundColor">@color/backgroundColorLight</item>
+        <item name="colorSurface">@color/surfaceColorLight</item>
+
+        <!-- Status bar and navigation bar colors -->
+        <item name="android:statusBarColor">@color/primaryVariantColor</item>
+        <item name="android:navigationBarColor">@color/backgroundColorLight</item>
+
+        <!-- Text color for light theme -->
+        <item name="android:textColor">@color/textColorLight</item>
+
+        <!-- Optional: Apply rounded corners to views -->
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.MaterialComponents.SmallComponent</item>
+    </style>
+
+    <style name="Theme.ContextMonitoringApp2" parent="Base.Theme.ContextMonitoringApp2" />
+</resources>
